@@ -134,7 +134,7 @@ Voici la structure proposé par la distribution Esokia
 
 Representation
 ^^^^^^^^^^^^^^
-`En image<layouting.png>`_
+`En image <layouting.png>`_
 
 Description en détails
 ^^^^^^^^^^^^^^^^^^^^^^

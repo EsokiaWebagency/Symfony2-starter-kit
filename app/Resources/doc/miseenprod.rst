@@ -14,11 +14,11 @@ Il y aura donc toujours des taches manuelles a faire.
 
 1 Préparez votre application
 """"""""""""""""""""""""""""""
-Tout d'abord, supprimer les dossier présent dans app/cache
-Supprimer tous les fichiers dans app/logs
-Supprimer tous les dossiers dans web/bundles
-Supprimez tous les fichiers présents dans vendors (sisi, la tache d'installation s'occupera de les installer)
-Modifiez le Favicon.co (c'est important !)
+ - supprimer les dossier présent dans app/cache
+ - Supprimer tous les fichiers dans app/logs
+ - Supprimer tous les dossiers dans web/bundles
+ - Supprimez tous les fichiers présents dans vendors (sisi, la tache d'installation s'occupera de les installer)
+ - Modifiez le Favicon.co (c'est important !)
 
 Si votre client utilise APC, ou un autre PHP Accelerator c'est le moment de préparer les réglages: 
 http://symfony.com/fr/doc/2.3/book/performance.html
