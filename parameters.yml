@@ -1,0 +1,11 @@
+parameters:
+    secret: o1MAg0a5EFR9
+    site.name: symfony_ditribution
+    site.email: null
+    company.name: null
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_user: root
+    database_password: 'null'
+    locale: en

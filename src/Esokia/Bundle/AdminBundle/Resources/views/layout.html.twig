@@ -1,0 +1,82 @@
+{% extends "::base.html.twig" %}
+
+{% block stylesheets %}
+{{ parent() }}
+{% stylesheets 'css/admin.css' filter='cssrewrite' output='css/compiled/admin.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+{% endstylesheets %}
+{% endblock %}
+
+
+
+{% block header %}
+<div class="col-md-10">
+         <h1>{{"Admin of "|trans}}{{ sitename|trans }}</h1>
+ </div>
+{% endblock %}
+
+{% block title %}{{'Admin '|trans({}, 'esokia_default')}} {% endblock title %}
+{% block rightHeader %}
+    
+    {# access to User Management if loggued in user is Admin #}
+            <div class='col-md-1'>
+                {% if is_granted('ROLE_ADMIN') %}
+                       <a href="{{path('admin_user')}}" class="btn btn-default">{{'User'|trans}}</a>
+                {% endif %}
+                       <a href="{{path('esokia_front_homepage')}}" class="btn btn-default">{{'Front end'|trans}}</a>
+           </div>
+            <div class='col-md-1'>
+                       <a href="{{path('fos_user_security_logout')}}" class="btn btn-default">{{'Logout'|trans}}</a>
+           </div>
+{% endblock %}
+    
+    
+{% block body -%}
+
+        
+   <div class="row">
+           <div class="col-md-2">
+               {{ knp_menu_render('EsokiaAdminBundle:MenuBuilder:mainMenu',   {'currentAsLink':false, 'currentClass': 'active'} ) }}
+           </div>
+           <div class="col-md-10">
+                  <div class="row">
+
+               
+                    <div class="col-md-12">
+                     {% block content_header %}
+                     {% endblock %}
+                    </div>
+
+
+                    <div class="col-md-12">
+                       {% block content %}{% endblock %}
+                    </div>
+             </div>
+        </div>
+            
+            
+    </div>
+      <div class="row">
+            <div  class="col-md-9 col-md-offset-2 contentFooter">
+               {% block content_footer -%}{% endblock %}
+            </div>
+        </div> 
+               
+               
+               
+               
+               
+{% endblock %}
+
+
+
+
+{% block javascripts %}
+      <script>
+        if(typeof(globalVars)!='object'){ globalVars = {}; }
+        globalVars.defaultAlertMessage =  "{{'esokia.default_confirm_alert'|trans({}, 'esokia_default')}}";
+     </script>    {{parent()}}
+    {% javascripts 'js/admin.js' output='js/compiled/admin.js' %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

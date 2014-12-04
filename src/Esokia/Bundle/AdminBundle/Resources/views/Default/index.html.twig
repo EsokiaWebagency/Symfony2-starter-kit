@@ -1,0 +1,17 @@
+ {% extends "EsokiaAdminBundle::layout.html.twig" %}
+
+{% block content -%}
+<div class="row">
+    <div class="jumbotron">
+      <h3>{{'you can use this bundle as a base for an admin area'|trans}}</h3>
+      
+      <p>
+          {{'To access a URL which begin with "/admin/" The user must have the ROLE_ADMIN rights'|trans}}<br>
+          {{'You can customize this feature in the app/config/security.yml file'|trans}}
+      </p>
+      
+    </div>
+            
+</div>
+      
+{% endblock content %}

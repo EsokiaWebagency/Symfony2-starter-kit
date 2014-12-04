@@ -1,0 +1,23 @@
+esokia_contact:
+    resource: "@EsokiaContactBundle/Resources/config/routing.yml"
+    prefix:   /
+
+esokia_front:
+    resource: "@EsokiaFrontBundle/Resources/config/routing.yml"
+    prefix:   /
+
+esokia_admin:
+    resource: "@EsokiaAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin/
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+    
+esokiaUserBundle_admin_user:
+    resource: "@EsokiaUserBundle/Resources/config/routing/user.yml"
+    prefix:   /admin/user
+
+#esokia_user:
+#    resource: "@EsokiaUserBundle/Resources/config/routing.yml"
+#    prefix:   /
+

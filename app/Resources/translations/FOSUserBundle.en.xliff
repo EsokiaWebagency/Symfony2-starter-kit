@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file date="2014-12-03T13:29:00Z" source-language="en" target-language="en" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="2a2cf0bf95dd01db157a1199e0d76b6378fe78d1" resname="Account enbaled">
+        <jms:reference-file line="11">views/Profile/show_content.html.twig</jms:reference-file>
+        <source>Account enbaled</source>
+        <target state="new">Account enbaled</target>
+      </trans-unit>
+      <trans-unit id="1378167d526696147e06dc809e7bc906e36fd7d1" resname="Enter your password">
+        <jms:reference-file line="29">views/Security/login.html.twig</jms:reference-file>
+        <source>Enter your password</source>
+        <target state="new">Enter your password</target>
+      </trans-unit>
+      <trans-unit id="c2c1706dc6987fd483513ecd917dbf3dc07f3b7e" resname="Enter your username">
+        <jms:reference-file line="21">views/Security/login.html.twig</jms:reference-file>
+        <source>Enter your username</source>
+        <target state="new">Enter your username</target>
+      </trans-unit>
+      <trans-unit id="7f2f6a15cf8da2b27e5a4af47b58e7ad71c0b3d9" resname="Error">
+        <jms:reference-file line="8">views/Security/login.html.twig</jms:reference-file>
+        <source>Error</source>
+        <target state="new">Error</target>
+      </trans-unit>
+      <trans-unit id="e701608c7dcc4e95ad3febdb17b7dcb38c2a9b2e" resname="Fristname">
+        <jms:reference-file line="6">views/Profile/show_content.html.twig</jms:reference-file>
+        <source>Fristname</source>
+        <target state="new">Fristname</target>
+      </trans-unit>
+      <trans-unit id="43dab84ff6552a93c48023c606773ef8bd77f141" resname="Last login">
+        <jms:reference-file line="12">views/Profile/show_content.html.twig</jms:reference-file>
+        <source>Last login</source>
+        <target state="new">Last login</target>
+      </trans-unit>
+      <trans-unit id="709a23220f2c3d64d1e1d6d18c4d5280f8d82fca" resname="Name">
+        <jms:reference-file line="7">views/Profile/show_content.html.twig</jms:reference-file>
+        <source>Name</source>
+        <target state="new">Name</target>
+      </trans-unit>
+      <trans-unit id="47dcc27d6e87ece8baebe7e3877a261a5467093d" resname="Roles">
+        <jms:reference-file line="14">views/Profile/show_content.html.twig</jms:reference-file>
+        <source>Roles</source>
+        <target state="new">Roles</target>
+      </trans-unit>
+      <trans-unit id="adec79fd87d04960046628531c4a56b714d160d8" resname="locked">
+        <jms:reference-file line="13">views/Profile/show_content.html.twig</jms:reference-file>
+        <source>locked</source>
+        <target state="new">locked</target>
+      </trans-unit>
+      <trans-unit id="9741ffbcf8dbb31e1a2d32bd25cb0ccc5a6dea54" resname="profile.edit.submit">
+        <jms:reference-file line="6">views/Profile/edit_content.html.twig</jms:reference-file>
+        <source>profile.edit.submit</source>
+        <target state="new">submit</target>
+      </trans-unit>
+      <trans-unit id="6f2b87ab0da336a9cb633f397ff7f86ab7ea522b" resname="profile.show.email">
+        <jms:reference-file line="8">views/Profile/show_content.html.twig</jms:reference-file>
+        <jms:reference-file line="28">views/User/show.html.twig</jms:reference-file>
+        <source>profile.show.email</source>
+        <target state="new">email</target>
+      </trans-unit>
+      <trans-unit id="23dc75f0ce6a28854008a1cf8c3041e41181ba8d" resname="profile.show.firstname">
+        <jms:reference-file line="20">views/User/show.html.twig</jms:reference-file>
+        <source>profile.show.firstname</source>
+        <target state="new">firstname</target>
+      </trans-unit>
+      <trans-unit id="4b5ccdfe6166ecb7a71e88f1b0218d810a9e87e3" resname="profile.show.lastlogin">
+        <jms:reference-file line="42">views/User/show.html.twig</jms:reference-file>
+        <source>profile.show.lastlogin</source>
+        <target state="new">last login</target>
+      </trans-unit>
+      <trans-unit id="b3c0b072e5ee93522f6a9c568c37202a830e878a" resname="profile.show.locked">
+        <jms:reference-file line="46">views/User/show.html.twig</jms:reference-file>
+        <source>profile.show.locked</source>
+        <target state="new">locked</target>
+      </trans-unit>
+      <trans-unit id="0e76b6d3ea73744685d6da8578579b1dd21fe66d" resname="profile.show.name">
+        <jms:reference-file line="24">views/User/show.html.twig</jms:reference-file>
+        <source>profile.show.name</source>
+        <target state="new">name</target>
+      </trans-unit>
+      <trans-unit id="3d5e546234009837f873d06770609a2890ffd7b2" resname="profile.show.roles">
+        <jms:reference-file line="50">views/User/show.html.twig</jms:reference-file>
+        <source>profile.show.roles</source>
+        <target state="new">roles</target>
+      </trans-unit>
+      <trans-unit id="0d6307def2ec4ecb26978118bb2deca9d566945c" resname="profile.show.username">
+        <jms:reference-file line="5">views/Profile/show_content.html.twig</jms:reference-file>
+        <jms:reference-file line="16">views/User/show.html.twig</jms:reference-file>
+        <source>profile.show.username</source>
+        <target state="new">username</target>
+      </trans-unit>
+      <trans-unit id="1fa5b2873fe30be026b854f6a51503b86c6ac81a" resname="registration.back">
+        <jms:reference-file line="9">views/Registration/confirmed.html.twig</jms:reference-file>
+        <source>registration.back</source>
+        <target state="new">back</target>
+      </trans-unit>
+      <trans-unit id="85a4eff0132a6f92eae3057837f285b3aedf38b8" resname="registration.check_email">
+        <jms:reference-file line="6">views/Registration/checkEmail.html.twig</jms:reference-file>
+        <source>registration.check_email</source>
+        <target state="new">An email has been sent to %email%. It contains an activation link you must click to activate your account.</target>
+      </trans-unit>
+      <trans-unit id="7a0a8fbc70fe82997f8a2ff89090f523ee63f72a" resname="registration.confirmed">
+        <jms:reference-file line="6">views/Registration/confirmed.html.twig</jms:reference-file>
+        <source>registration.confirmed</source>
+        <target state="new">Congrats %username%, your account is now activated.</target>
+      </trans-unit>
+      <trans-unit id="6362bc7b7a8f72b782ffd590744ab069327bbe4a" resname="registration.email.message">
+        <jms:reference-file line="9">views/Registration/email.txt.twig</jms:reference-file>
+        <source>registration.email.message</source>
+        <target state="new">
+			Hello %username%!
+
+            To finish activating your account - please visit %confirmationUrl%
+
+            Regards,
+            the Team.</target>
+      </trans-unit>
+      <trans-unit id="10df4e23ec43b671aafea0a3a9ebc8dcc92b1bd0" resname="registration.email.subject">
+        <jms:reference-file line="4">views/Registration/email.txt.twig</jms:reference-file>
+        <source>registration.email.subject</source>
+        <target state="new">Welcome %username%!</target>
+      </trans-unit>
+      <trans-unit id="4ef79d57e94b4b74349d6533a231e09dc5be0ce2" resname="registration.submit">
+        <jms:reference-file line="6">views/Registration/register_content.html.twig</jms:reference-file>
+        <source>registration.submit</source>
+        <target state="new">Register</target>
+      </trans-unit>
+      <trans-unit id="40c1a483571045e24d606bf00361cfd4d021ba05" resname="resetting.check_email">
+        <jms:reference-file line="7">views/Resetting/checkEmail.html.twig</jms:reference-file>
+        <source>resetting.check_email</source>
+        <target state="new">An email has been sent to %email%. It contains a link you must click to reset your password.</target>
+      </trans-unit>
+      <trans-unit id="70c8836a0e3b8dadb494b8de56ebed18939359b5" resname="resetting.email.message">
+        <jms:reference-file line="9">views/Resetting/email.txt.twig</jms:reference-file>
+        <source>resetting.email.message</source>
+        <target state="new">|
+		    Hello %username%!
+
+            To reset your password - please visit %confirmationUrl%
+
+            Regards,
+            the Team.</target>
+      </trans-unit>
+      <trans-unit id="126cf13058808d8948cc673c7933c6c1ce27841d" resname="resetting.email.subject">
+        <jms:reference-file line="4">views/Resetting/email.txt.twig</jms:reference-file>
+        <source>resetting.email.subject</source>
+        <target state="new">Reset Password</target>
+      </trans-unit>
+      <trans-unit id="f0b3476bec045fac67c256d17a54e4f8a8d05335" resname="resetting.password_already_requested">
+        <jms:reference-file line="6">views/Resetting/passwordAlreadyRequested.html.twig</jms:reference-file>
+        <source>resetting.password_already_requested</source>
+        <target state="new">The password for this user has already been requested within the last 24 hours.</target>
+      </trans-unit>
+      <trans-unit id="c3474ad1b73a0d0db019eec986ee675e8afaf640" resname="resetting.request.invalid_username">
+        <jms:reference-file line="6">views/Resetting/request_content.html.twig</jms:reference-file>
+        <source>resetting.request.invalid_username</source>
+        <target state="new">The username or email address "%username%" does not exist.</target>
+      </trans-unit>
+      <trans-unit id="e1470b3c202d9a4fa8e1afa7ed8695917f060ccd" resname="resetting.request.submit">
+        <jms:reference-file line="14">views/Resetting/request_content.html.twig</jms:reference-file>
+        <source>resetting.request.submit</source>
+        <target state="new">Reset password</target>
+      </trans-unit>
+      <trans-unit id="7ad41bf8fb30013eb0f31ca027ca8d1dc7a3d96f" resname="resetting.request.username">
+        <jms:reference-file line="9">views/Resetting/request_content.html.twig</jms:reference-file>
+        <jms:reference-file line="10">views/Resetting/request_content.html.twig</jms:reference-file>
+        <source>resetting.request.username</source>
+        <target state="new">Username or email address:</target>
+      </trans-unit>
+      <trans-unit id="921fd7a5cc7f9e46eab31822855a22d9808b0477" resname="resetting.reset.submit">
+        <jms:reference-file line="6">views/Resetting/reset_content.html.twig</jms:reference-file>
+        <source>resetting.reset.submit</source>
+        <target state="new">Change password</target>
+      </trans-unit>
+      <trans-unit id="cb20f87caae027282ba9841012c4ef41c05ac6c5" resname="security.login.forgotten_password">
+        <jms:reference-file line="46">views/Security/login.html.twig</jms:reference-file>
+        <source>security.login.forgotten_password</source>
+        <target state="new">Forgot your password?</target>
+      </trans-unit>
+      <trans-unit id="62d5564c383b885ff0de25abd24a41080499970b" resname="security.login.password">
+        <jms:reference-file line="27">views/Security/login.html.twig</jms:reference-file>
+        <source>security.login.password</source>
+        <target state="new">Password:</target>
+      </trans-unit>
+      <trans-unit id="d074ed9a0eb75b7f17ef2274c21d4c3d12d91634" resname="security.login.remember_me">
+        <jms:reference-file line="37">views/Security/login.html.twig</jms:reference-file>
+        <source>security.login.remember_me</source>
+        <target state="new">Remember me</target>
+      </trans-unit>
+      <trans-unit id="79c180ac5e987e195d1dfeda857a114ed692d07f" resname="security.login.submit">
+        <jms:reference-file line="52">views/Security/login.html.twig</jms:reference-file>
+        <source>security.login.submit</source>
+        <target state="new">Login</target>
+      </trans-unit>
+      <trans-unit id="64e1b2aaf6156a7e34a13fbc38801e89478efff8" resname="security.login.username">
+        <jms:reference-file line="19">views/Security/login.html.twig</jms:reference-file>
+        <source>security.login.username</source>
+        <target state="new">Username:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

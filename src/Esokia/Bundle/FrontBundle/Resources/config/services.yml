@@ -1,0 +1,7 @@
+parameters:
+#    esokia_front.example.class: Esokia\Bundle\FrontBundle\Example
+
+services:
+#    esokia_front.example:
+#        class: %esokia_front.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,15 @@
+{% extends 'EsokiaContactBundle::Email/emailLayout.txt.twig' %}
+{% block body %}
+    
+{{'esokia.contact_name_label'|trans({}, 'esokia_default')}}:    {{contact.name}}
+{{'esokia.contact_email_label'|trans({}, 'esokia_default')}}:   {{contact.email}}
+                
+{{'esokia.contact_subject_label'|trans({}, 'esokia_default')}}: {{contact.subject}}
+{{'esokia.contact_message_label'|trans({}, 'esokia_default')}}: {{contact.message}}
+
+---------------
+{{'esokia.contact_ip_label'|trans({}, 'esokia_default')}}: {{contact.ip}}
+
+
+
+{% endblock %}

@@ -1,0 +1,41 @@
+/*
+    Put the global CSS in this file
+    The CSS of this file will be apply on all the application
+    Please, create a CSS file for each specific area
+*/
+/* 
+    Created on : Nov 27, 2014, 1:47:29 PM
+    Author     : esokia
+*/
+
+
+.contentFooter{ margin-top: 24px;}
+
+ul.nav > li.active{background-color: #eee;}
+
+/* forms global class */
+
+label{font-weight:normal;}
+label.required{font-weight:bold;}
+
+
+.required:after {
+    content: "*";
+}
+
+
+
+
+/* footer */
+
+footer{
+margin-top: 24px;
+font-size: 11px;
+/* background-color: #555; */
+}
+
+/*
+footer ul.nav > li.active{background-color: #transparent;}
+footer ul.nav > li a{color:#ccc;}
+footer ul.nav > li.active a{color:#ccc; text-decoration: underline;}
+*/

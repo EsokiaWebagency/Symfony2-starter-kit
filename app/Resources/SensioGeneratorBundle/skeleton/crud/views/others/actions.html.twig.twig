@@ -1,0 +1,12 @@
+
+                <ul class="list_inline">
+
+                {%- for action in record_actions %}
+
+                    <li>
+                        <a href="{{ "{{ path('" ~ route_name_prefix ~ "_" ~ action ~ "', { 'id': entity.id }) }}" }}">{{'{{"'}}{{ action }}{{'"|trans}}'}}</a>
+                    </li>
+
+                {%- endfor %}
+
+                </ul>

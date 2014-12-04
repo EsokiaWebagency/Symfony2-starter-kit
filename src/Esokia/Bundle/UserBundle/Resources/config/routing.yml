@@ -1,0 +1,4 @@
+#esokia_user_homepage:
+#    path:     /
+#    defaults: { _controller: EsokiaUserBundle:Default:index }
+

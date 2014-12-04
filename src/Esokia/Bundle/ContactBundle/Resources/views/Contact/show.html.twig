@@ -1,0 +1,60 @@
+{% extends 'EsokiaAdminBundle::layout.html.twig' %}
+
+
+   {% block title -%}Contact{% endblock title -%} 
+
+{% block  content_header -%}
+    <h3>{{'Contact'|trans}}</h3>
+{% endblock  content_header -%} 
+
+
+{% block content -%}
+
+    <table class="table table-striped table-condensed">
+        <tbody>
+            <tr>
+                <th>{{'Id'|trans}}</th>
+                <td>{{ entity.id }}</td>
+            </tr>
+            <tr>
+                <th>{{'Name'|trans}}</th>
+                <td>{{ entity.name }}</td>
+            </tr>
+            <tr>
+                <th>{{'Email'|trans}}</th>
+                <td>{{ entity.email }}</td>
+            </tr>
+            <tr>
+                <th>{{'Subject'|trans}}</th>
+                <td>{{ entity.subject }}</td>
+            </tr>
+            <tr>
+                <th>{{'Ip'|trans}}</th>
+                <td>{{ entity.ip }}</td>
+            </tr>
+            <tr>
+                <th>{{'Date'|trans}}</th>
+                <td>{{ entity.created|date("d/m/Y H:m:s") }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+{% endblock content %}
+
+
+        {% block content_footer -%}
+
+
+<ul class="list-inline">
+    <li>
+        <a href="{{ path('contact') }}"  class="btn btn-default">
+            {{'esokia.back_to_list'|trans({}, 'esokia_default')}} 
+        </a>
+    </li>
+    <li>{{ form(delete_form) }}</li>
+</ul>
+{% endblock content_footer -%} 
+
+
+
+

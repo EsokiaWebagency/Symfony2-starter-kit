@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file date="2014-12-03T07:15:58Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="0f2a7bb2299b76776020c98e3827c35f57851edd" resname="Admin of ">
+        <jms:reference-file line="14">Resources/views/layout.html.twig</jms:reference-file>
+        <source>Admin of </source>
+        <target state="new">Administration de </target>
+      </trans-unit>
+      <trans-unit id="b8be3d1264310c3b8c848d4b90d5206179a40cc4" resname="Administration">
+        <jms:reference-file line="18">Resources/views/layout.html.twig</jms:reference-file>
+        <source>Administration</source>
+        <target state="new">Administration</target>
+      </trans-unit>
+      <trans-unit id="5f717e07da74f03cec6bfaff700aa911d90b0c8e" resname="Clic on the admin button to access the securized area">
+        <jms:reference-file line="10">views/Default/index.html.twig</jms:reference-file>
+        <source>Clic on the admin button to access the securized area</source>
+        <target state="new">Cliquez sur le bouton admin pour acceder à l'espace sécurisé</target>
+      </trans-unit>
+      <trans-unit id="b37456c4530be810dc040f50da72eda09addfb0a" resname="Contact">
+        <jms:reference-file line="7">views/Contact/show.html.twig</jms:reference-file>
+        <source>Contact</source>
+        <target state="new">Contact</target>
+      </trans-unit>
+      <trans-unit id="9ad0ccff7c60872356cb74b82694782be79ba338" resname="Contact Us">
+        <jms:reference-file line="16">FrontBundle/Menu/MenuBuilder.php</jms:reference-file>
+        <jms:reference-file line="37">FrontBundle/Menu/MenuBuilder.php</jms:reference-file>
+        <source>Contact Us</source>
+        <target state="new">Contactez-nous</target>
+      </trans-unit>
+      <trans-unit id="6e157c5da4410b7e9de85f5c93026b9176e69064" resname="Create">
+        <jms:reference-file line="149">ContactBundle/Controller/ContactController.php</jms:reference-file>
+        <jms:reference-file line="82">UserBundle/Controller/UserController.php</jms:reference-file>
+        <source>Create</source>
+        <target state="new">Nouveau</target>
+      </trans-unit>
+      <trans-unit id="eb9a4bc1c0c153e4e4b042a79113b815b7e3021d" resname="Date">
+        <jms:reference-file line="36">views/Contact/show.html.twig</jms:reference-file>
+        <source>Date</source>
+        <target state="new">Date</target>
+      </trans-unit>
+      <trans-unit id="f6fdbe48dc54dd86f63097a03bd24094dedd713a" resname="Delete">
+        <jms:reference-file line="299">ContactBundle/Controller/ContactController.php</jms:reference-file>
+        <jms:reference-file line="233">UserBundle/Controller/UserController.php</jms:reference-file>
+        <source>Delete</source>
+        <target state="new">Effacer</target>
+      </trans-unit>
+      <trans-unit id="84add5b2952787581cb9a8851eef63d1ec75d22b" resname="Email">
+        <jms:reference-file line="20">views/Contact/index.html.twig</jms:reference-file>
+        <jms:reference-file line="24">views/Contact/show.html.twig</jms:reference-file>
+        <jms:reference-file line="33">UserBundle/Form/UserType.php</jms:reference-file>
+        <source>Email</source>
+        <target state="new">E-mail</target>
+      </trans-unit>
+      <trans-unit id="cf23ba48c06d7e6d4b41a205bfb3cac3bb7b1e38" resname="Firstname">
+        <jms:reference-file line="31">UserBundle/Form/UserType.php</jms:reference-file>
+        <source>Firstname</source>
+        <target state="new">Prénom</target>
+      </trans-unit>
+      <trans-unit id="afc38459661f1d3e0708cbbb89db3ac713eaeeef" resname="Front end">
+        <jms:reference-file line="26">Resources/views/layout.html.twig</jms:reference-file>
+        <source>Front end</source>
+        <target state="new">Front end</target>
+      </trans-unit>
+      <trans-unit id="059f52634336d9bdc3b55b7b3939a4d867130010" resname="Hey this is your FRONT BASE">
+        <jms:reference-file line="6">views/Default/index.html.twig</jms:reference-file>
+        <source>Hey this is your FRONT BASE</source>
+        <target state="new">Hey vous êtes sur votre espace FRONT de base</target>
+      </trans-unit>
+      <trans-unit id="70f8bb9a8a5393ef080507a89e4b98d139000d65" resname="Home">
+        <jms:reference-file line="15">FrontBundle/Menu/MenuBuilder.php</jms:reference-file>
+        <source>Home</source>
+        <target state="new">Accueil</target>
+      </trans-unit>
+      <trans-unit id="474ae52625b87d7628ae7b20a499329a99e07119" resname="Id">
+        <jms:reference-file line="18">views/Contact/index.html.twig</jms:reference-file>
+        <jms:reference-file line="16">views/Contact/show.html.twig</jms:reference-file>
+        <source>Id</source>
+        <target state="new">Id</target>
+      </trans-unit>
+      <trans-unit id="3f489673867c88d849310515e837cdfb70bc6415" resname="Ip">
+        <jms:reference-file line="22">views/Contact/index.html.twig</jms:reference-file>
+        <jms:reference-file line="32">views/Contact/show.html.twig</jms:reference-file>
+        <source>Ip</source>
+        <target state="new">Ip</target>
+      </trans-unit>
+      <trans-unit id="5e3cb594f62ccb1abaa25151c888777e14990dfe" resname="Locked?">
+        <jms:reference-file line="34">UserBundle/Form/UserType.php</jms:reference-file>
+        <source>Locked?</source>
+        <target state="new">Bloqué ?</target>
+      </trans-unit>
+      <trans-unit id="4e5a2893bdcc7d239c1db72e4c4ffbe4bea73174" resname="Login">
+        <jms:reference-file line="3">Resources/views/layout.html.twig</jms:reference-file>
+        <source>Login</source>
+        <target state="new">Connexion</target>
+      </trans-unit>
+      <trans-unit id="e43d612e11f1568f2373e719d4c4b08dcecdc7cc" resname="Logout">
+        <jms:reference-file line="29">Resources/views/layout.html.twig</jms:reference-file>
+        <source>Logout</source>
+        <target state="new">Déconnexion</target>
+      </trans-unit>
+      <trans-unit id="709a23220f2c3d64d1e1d6d18c4d5280f8d82fca" resname="Name">
+        <jms:reference-file line="19">views/Contact/index.html.twig</jms:reference-file>
+        <jms:reference-file line="20">views/Contact/show.html.twig</jms:reference-file>
+        <jms:reference-file line="32">UserBundle/Form/UserType.php</jms:reference-file>
+        <source>Name</source>
+        <target state="new">Nom</target>
+      </trans-unit>
+      <trans-unit id="47dcc27d6e87ece8baebe7e3877a261a5467093d" resname="Roles">
+        <jms:reference-file line="35">UserBundle/Form/UserType.php</jms:reference-file>
+        <source>Roles</source>
+        <target state="new">Rôles</target>
+      </trans-unit>
+      <trans-unit id="f9eaec3afab8d4a991d66c128fd4afa014c2bba6" resname="Sending on">
+        <jms:reference-file line="23">views/Contact/index.html.twig</jms:reference-file>
+        <source>Sending on</source>
+        <target state="new">Envoyé le</target>
+      </trans-unit>
+      <trans-unit id="8d183dbdcea3b29906090bd83fa6fa37923cc8ec" resname="Subject">
+        <jms:reference-file line="21">views/Contact/index.html.twig</jms:reference-file>
+        <jms:reference-file line="28">views/Contact/show.html.twig</jms:reference-file>
+        <source>Subject</source>
+        <target state="new">Sujet</target>
+      </trans-unit>
+      <trans-unit id="a6a1d25b018c9318540556e3fe374fdf8b23aff8" resname="Terms of service">
+        <jms:reference-file line="34">FrontBundle/Menu/MenuBuilder.php</jms:reference-file>
+        <source>Terms of service</source>
+        <target state="new">CGU</target>
+      </trans-unit>
+      <trans-unit id="2e0074e83a3986cc456025f66162f8be88a9daf3" resname="The %page% page does not exist">
+        <jms:reference-file line="26">FrontBundle/Controller/DefaultController.php</jms:reference-file>
+        <source>The %page% page does not exist</source>
+        <target state="new">La page %page% n'existe pas.</target>
+      </trans-unit>
+      <trans-unit id="3eb69a45caff50d3f7ccbe2cf2cd8efe129050f7" resname="The Default credentials are admin / admin but you MUST CHANGE IT AS SOON AS POSSIBLE">
+        <jms:reference-file line="11">views/Default/index.html.twig</jms:reference-file>
+        <source>The Default credentials are admin / admin but you MUST CHANGE IT AS SOON AS POSSIBLE</source>
+        <target state="new">Les codes par defaut sont admin / admin. VOUS DEVEZ IMPERATIVEMENT LES CHANGER LE PLUS VITE POSSIBLE</target>
+      </trans-unit>
+      <trans-unit id="8f2ab5affb306a3189b7a0e30bfe7a2832d5294d" resname="This part is accessible by everyone">
+        <jms:reference-file line="9">views/Default/index.html.twig</jms:reference-file>
+        <source>This part is accessible by everyone</source>
+        <target state="new">Cet espace est accéssible par n'importe quel utilisateur</target>
+      </trans-unit>
+      <trans-unit id="f3e9c96033d9746cecac54431f4e6644fea06be5" resname="To access a URL wich begin with &quot;/admin/&quot; The user must have the ROLE_ADMIN rights">
+        <jms:reference-file line="9">views/Default/index.html.twig</jms:reference-file>
+        <source>To access a URL which begin with "/admin/" The user must have the ROLE_ADMIN rights</source>
+        <target state="new">Pour acceder a une URL qui commence par "/admin/" l'utilisateur doit avoir le role ROLE_ADMIN </target>
+      </trans-unit>
+      <trans-unit id="fb91e24fa52d8d2b32937bf04d843f730319a902" resname="Update">
+        <jms:reference-file line="229">ContactBundle/Controller/ContactController.php</jms:reference-file>
+        <jms:reference-file line="162">UserBundle/Controller/UserController.php</jms:reference-file>
+        <source>Update</source>
+        <target state="new">Mettre à jour</target>
+      </trans-unit>
+      <trans-unit id="9f8a2389a20ca0752aa9e95093515517e90e194c" resname="User">
+        <jms:reference-file line="24">Resources/views/layout.html.twig</jms:reference-file>
+        <source>User</source>
+        <target state="new">Utilisateur</target>
+      </trans-unit>
+      <trans-unit id="84c29015de33e5d22422382a372caba5c58f8c01" resname="Username">
+        <jms:reference-file line="26">UserBundle/Form/UserType.php</jms:reference-file>
+        <source>Username</source>
+        <target state="new">Username</target>
+      </trans-unit>
+      <trans-unit id="a542cb05e2a1d4563e3d77a1ecd1caa9d30f4483" resname="You can customize this feature in the app/config/security.yml file">
+        <jms:reference-file line="10">views/Default/index.html.twig</jms:reference-file>
+        <source>You can customize this feature in the app/config/security.yml file</source>
+        <target state="new">Vous pouvez modifier ce comportement dans app/config/security.yml file</target>
+      </trans-unit>
+      <trans-unit id="37d4a167fa5d22e972d7994824b02f2030f869cb" resname="Your email has been sent">
+        <jms:reference-file line="77">ContactBundle/Controller/ContactController.php</jms:reference-file>
+        <source>Your email has been sent</source>
+        <target state="new">Votre e-mail à bien été envoyé</target>
+      </trans-unit>
+      <trans-unit id="5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8" resname="password">
+        <jms:reference-file line="28">UserBundle/Form/UserType.php</jms:reference-file>
+        <source>password</source>
+        <target state="new">mot de passe</target>
+      </trans-unit>
+      <trans-unit id="0af14ffb3e1ee17fee1cb7369d3c66bc382f1e31" resname="you can use this bundle as a base for an admin area">
+        <jms:reference-file line="6">views/Default/index.html.twig</jms:reference-file>
+        <source>you can use this bundle as a base for an admin area</source>
+        <target state="new">Vous pouvez utiliser ce bundle comme base pour votre zone d'administration</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,3 @@
+esokia_admin_homepage:
+    path:     /
+    defaults: { _controller: EsokiaAdminBundle:Default:index }

@@ -1,0 +1,220 @@
+<?php
+
+namespace Esokia\Bundle\UserBundle\Entity;
+
+use FOS\UserBundle\Model\User as BaseUser;
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * @ORM\Entity
+ * @ORM\Table(name="fos_user")
+ */
+class User extends BaseUser
+{
+    /**
+     * @ORM\Id
+     * @ORM\Column(type="integer")
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    protected $id;
+    
+    
+    /**
+    * @ORM\Column(type="string", nullable=true)
+    */
+    protected $firstname = null;
+    
+     /**
+    * @ORM\Column(type="string", nullable=true)
+    */
+    protected $name = null;   
+      /**
+     * @var string
+     *
+     * @ORM\Column(name="requestGeo", type="string", length=255, nullable=true)
+     */
+    protected $requestGeo;
+
+        /**
+     * @var string
+     *
+     * @ORM\Column(name="latitude", type="float", nullable=true)
+     */
+    protected $latitude;  
+    
+    
+         /**
+     * @var string
+     *
+     * @ORM\Column(name="longitude", type="float", nullable=true)
+     */
+    protected $longitude;  
+
+    
+     /**
+     * @var string
+     *
+     * @ORM\Column(name="country", type="float", nullable=true)
+     */
+    protected $country;     
+    
+    
+    
+ 
+
+    public function __construct()
+    {
+        parent::__construct();
+        // your own logic
+    }
+    
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+    
+
+    /**
+     * Set firstname
+     *
+     * @param string $firstname
+     * @return User
+     */
+    public function setFirstname($firstname)
+    {
+        $this->firstname = $firstname;
+
+        return $this;
+    }
+
+    /**
+     * Get firstname
+     *
+     * @return string 
+     */
+    public function getFirstname()
+    {
+        return $this->firstname;
+    }
+
+    /**
+     * Set name
+     *
+     * @param string $name
+     * @return User
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
+    /**
+     * Get name
+     *
+     * @return string 
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Set requestGeo
+     *
+     * @param string $requestGeo
+     * @return User
+     */
+    public function setUserGeo($requestGeo)
+    {
+        $this->requestGeo = $requestGeo;
+
+        return $this;
+    }
+
+    /**
+     * Get requestGeo
+     *
+     * @return string 
+     */
+    public function getUserGeo()
+    {
+        return $this->requestGeo;
+    }
+
+    /**
+     * Set latitude
+     *
+     * @param float $latitude
+     * @return User
+     */
+    public function setLatitude($latitude)
+    {
+        $this->latitude = $latitude;
+
+        return $this;
+    }
+
+    /**
+     * Get latitude
+     *
+     * @return float 
+     */
+    public function getLatitude()
+    {
+        return $this->latitude;
+    }
+
+    /**
+     * Set longitude
+     *
+     * @param float $longitude
+     * @return User
+     */
+    public function setLongitude($longitude)
+    {
+        $this->longitude = $longitude;
+
+        return $this;
+    }
+
+    /**
+     * Get longitude
+     *
+     * @return float 
+     */
+    public function getLongitude()
+    {
+        return $this->longitude;
+    }
+
+    /**
+     * Set country
+     *
+     * @param float $country
+     * @return User
+     */
+    public function setCountry($country)
+    {
+        $this->country = $country;
+
+        return $this;
+    }
+
+    /**
+     * Get country
+     *
+     * @return float 
+     */
+    public function getCountry()
+    {
+        return $this->country;
+    }
+}

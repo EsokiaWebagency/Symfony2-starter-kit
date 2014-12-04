@@ -1,0 +1,13 @@
+twig:
+    debug:            %kernel.debug%
+    strict_variables: %kernel.debug%    
+    globals:
+       sitename: %site.name%
+       sitelogo: %site.logo%
+       companyname: %company.name%
+
+services:
+    twig.extension.intl:
+        class: Twig_Extensions_Extension_Intl
+        tags:
+            - { name: twig.extension }

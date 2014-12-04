@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file date="2014-12-03T07:15:58Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="f7c182342a20229a389e49fd2d326137f0e799f8" resname="Any information concerning the Client and their respective Client Records may be passed to third parties. However, Client records are regarded as confidential and therefore will not be divulged to any third party, other than [our manufacturer/supplier(s) and] if legally required to do so to the appropriate authorities. Clients have the right to request sight of, and copies of any and all Client Records we keep, on the proviso that we are given reasonable notice of such a request. Clients are requested to retain copies of any literature issued in relation to the provision of our services. Where appropriate, we shall issue Client’s with appropriate written information, handouts or copies of records as part of an agreed contract, for the benefit of both parties.&#10;">
+        <jms:reference-file line="35">views/Default/legal.html.twig</jms:reference-file>
+        <source>Any information concerning the Client and their respective Client Records may be passed to third parties. Clients have the right to request sight of, and copies of any and all Client Records we keep, on the proviso that we are given reasonable notice of such a request. Clients are requested to retain copies of any literature issued in relation to the provision of our services. Where appropriate, we shall issue Client’s with appropriate written information, handouts or copies of records as part of an agreed contract, for the benefit of both parties.
+</source>
+        <target state="new">Toute information concernant le client et les dossiers des clients respectifs peuvent être transmises à des tiers. Toutefois, les dossiers des clients sont considérées comme confidentielles. Les clients ont le droit de demander de voir,leurs dossiers  que nous conservons, avec un préavis raisonnable pour une telle demande. Les clients sont priés de conserver des copies de toute la littérature publiée par rapport à la prestation de nos services. Le cas échéant, nous enverrons l'information écrite appropriée, documents ou copies de dossiers dans le cadre d'un contrat conclu, pour le bénéfice des deux parties.
+</target>
+      </trans-unit>
+      <trans-unit id="681b5b5ae10b994e61d9fc53cf8a95498ff0df39" resname="Availability">
+        <jms:reference-file line="64">views/Default/legal.html.twig</jms:reference-file>
+        <source>Availability</source>
+        <target state="new">Disponibilité</target>
+      </trans-unit>
+      <trans-unit id="e898c821afd66045c49e3a351e91c99cde9b42d3" resname="Both the Client and ourselves have the right to terminate any Services Agreement for any reason, including the ending of services that are already underway. No refunds shall be offered, where a Service is deemed to have begun and is, for all intents and purposes, underway. Any monies that have been paid to us which constitute payment in respect of the provision of unused Services, shall be refunded.&#10;">
+        <jms:reference-file line="59">views/Default/legal.html.twig</jms:reference-file>
+        <source>Both the Client and ourselves have the right to terminate any Services Agreement for any reason, including the ending of services that are already underway. No refunds shall be offered, where a Service is deemed to have begun and is, for all intents and purposes, underway. Any monies that have been paid to us which constitute payment in respect of the provision of unused Services, shall be refunded.
+</source>
+        <target state="new">Le client et l'entreprise ont tous deux le droit de résilier toute accord de services pour une raison quelconque, y compris la fin des services qui sont déjà en cours. Aucun remboursement ne sera offert, Toutes les sommes qui nous ont été versées et constituent un paiement à l'égard de la prestation de services non utilisés, seront remboursées.</target>
+      </trans-unit>
+      <trans-unit id="e769598b26a911bdd7bf6961309b8ae56b4ff568" resname="By accessing this website [and using our services/buying our products] you consent to these terms and conditions and to the exclusive jurisdiction of the competent courts for the Company in all disputes arising out of such access. If any of these terms are deemed invalid or unenforceable for any reason (including, but not limited to the exclusions and limitations set out above), then the invalid or unenforceable provision will be severed from these terms and the remaining terms will continue to apply. Failure of the Company to enforce any of the provisions set out in these Terms and Conditions and any Agreement, or failure to exercise any option to terminate, shall not be construed as waiver of such provisions and shall not affect the validity of these Terms and Conditions or of any Agreement or any part thereof, or the right thereafter to enforce each and every provision. These Terms and Conditions shall not be amended, modified, varied or supplemented except in writing and signed by duly authorised representatives of the Company.&#10;">
+        <jms:reference-file line="135">views/Default/legal.html.twig</jms:reference-file>
+        <source>By accessing this website [and using our services/buying our products] you consent to these terms and conditions and to the exclusive jurisdiction of the competent courts for the Company in all disputes arising out of such access. If any of these terms are deemed invalid or unenforceable for any reason (including, but not limited to the exclusions and limitations set out above), then the invalid or unenforceable provision will be severed from these terms and the remaining terms will continue to apply. Failure of the Company to enforce any of the provisions set out in these Terms and Conditions and any Agreement, or failure to exercise any option to terminate, shall not be construed as waiver of such provisions and shall not affect the validity of these Terms and Conditions or of any Agreement or any part thereof, or the right thereafter to enforce each and every provision. These Terms and Conditions shall not be amended, modified, varied or supplemented except in writing and signed by duly authorised representatives of the Company.
+</source>
+        <target state="new">By accessing this website [and using our services/buying our products] you consent to these terms and conditions and to the exclusive jurisdiction of the competent courts for the Company in all disputes arising out of such access. If any of these terms are deemed invalid or unenforceable for any reason (including, but not limited to the exclusions and limitations set out above), then the invalid or unenforceable provision will be severed from these terms and the remaining terms will continue to apply. Failure of the Company to enforce any of the provisions set out in these Terms and Conditions and any Agreement, or failure to exercise any option to terminate, shall not be construed as waiver of such provisions and shall not affect the validity of these Terms and Conditions or of any Agreement or any part thereof, or the right thereafter to enforce each and every provision. These Terms and Conditions shall not be amended, modified, varied or supplemented except in writing and signed by duly authorised representatives of the Company.
+</target>
+      </trans-unit>
+      <trans-unit id="ade0d50c9254cf0c9459bbfe2398553c1fee3ecb" resname="Communication">
+        <jms:reference-file line="109">views/Default/legal.html.twig</jms:reference-file>
+        <source>Communication</source>
+        <target state="new">Communication</target>
+      </trans-unit>
+      <trans-unit id="642e7d86380c45ab6bf740979d0035af43147e9f" resname="Confidentiality">
+        <jms:reference-file line="33">views/Default/legal.html.twig</jms:reference-file>
+        <source>Confidentiality</source>
+        <target state="new">Confidentiality</target>
+      </trans-unit>
+      <trans-unit id="524cf50b5df5f29161c0600989922de48abede70" resname="Cookies">
+        <jms:reference-file line="78">views/Default/legal.html.twig</jms:reference-file>
+        <source>Cookies</source>
+        <target state="new">Cookies</target>
+      </trans-unit>
+      <trans-unit id="3ce2f8ef9954374fc94585c2e1c72e0dfcb11e49" resname="Copyright Notice">
+        <jms:reference-file line="99">views/Default/legal.html.twig</jms:reference-file>
+        <source>Copyright Notice</source>
+        <target state="new">Copyright Notice</target>
+      </trans-unit>
+      <trans-unit id="3f246d0825f5935484ddec9a3769c056bad09570" resname="Copyright and other relevant intellectual property rights exists on all text relating to the Company’s services and the full content of this website. &#10;">
+        <jms:reference-file line="101">views/Default/legal.html.twig</jms:reference-file>
+        <source>Copyright and other relevant intellectual property rights exists on all text relating to the Company’s services and the full content of this website. 
+</source>
+        <target state="new">Copyright and other relevant intellectual property rights exists on all text relating to the Company’s services and the full content of this website. 
+</target>
+      </trans-unit>
+      <trans-unit id="4c4a2e80cc873135b3d277a22b6e85110c509731" resname="Disclaimer">
+        <jms:reference-file line="40">views/Default/legal.html.twig</jms:reference-file>
+        <source>Disclaimer</source>
+        <target state="new">Disclaimer</target>
+      </trans-unit>
+      <trans-unit id="afcfa2142c4aeeb9405ec7dd0949140191a1cc54" resname="Exclusions and Limitations">
+        <jms:reference-file line="40">views/Default/legal.html.twig</jms:reference-file>
+        <source>Exclusions and Limitations</source>
+        <target state="new">Exclusions and Limitations</target>
+      </trans-unit>
+      <trans-unit id="ff76255899cdc0de2ee726ed3612cbf6348ced36" resname="Failure of either Party to insist upon strict performance of any provision of this or any Agreement or the failure of either Party to exercise any right or remedy to which it, he or they are entitled hereunder shall not constitute a waiver thereof and shall not cause a diminution of the obligations under this or any Agreement. No waiver of any of the provisions of this or any Agreement shall be effective unless it is expressly stated to be such and signed by both Parties.&#10;">
+        <jms:reference-file line="128">views/Default/legal.html.twig</jms:reference-file>
+        <source>Failure of either Party to insist upon strict performance of any provision of this or any Agreement or the failure of either Party to exercise any right or remedy to which it, he or they are entitled hereunder shall not constitute a waiver thereof and shall not cause a diminution of the obligations under this or any Agreement. No waiver of any of the provisions of this or any Agreement shall be effective unless it is expressly stated to be such and signed by both Parties.
+</source>
+        <target state="new">Failure of either Party to insist upon strict performance of any provision of this or any Agreement or the failure of either Party to exercise any right or remedy to which it, he or they are entitled hereunder shall not constitute a waiver thereof and shall not cause a diminution of the obligations under this or any Agreement. No waiver of any of the provisions of this or any Agreement shall be effective unless it is expressly stated to be such and signed by both Parties.
+</target>
+      </trans-unit>
+      <trans-unit id="9cd5db0a86cf806240846a556be4ed1727c49333" resname="Force Majeure">
+        <jms:reference-file line="119">views/Default/legal.html.twig</jms:reference-file>
+        <source>Force Majeure</source>
+        <target state="new">Force Majeure</target>
+      </trans-unit>
+      <trans-unit id="9239ee2cda84eca4c3440e2a7b50148af67da3d4" resname="General">
+        <jms:reference-file line="133">views/Default/legal.html.twig</jms:reference-file>
+        <source>General</source>
+        <target state="new">General</target>
+      </trans-unit>
+      <trans-unit id="c4aedb8a1617d899beef15993a93054f6383dc88" resname="In using this website you are deemed to have read and agreed to the following terms and conditions">
+        <jms:reference-file line="7">views/Default/legal.html.twig</jms:reference-file>
+        <source>In using this website you are deemed to have read and agreed to the following terms and conditions</source>
+        <target state="new">In using this website you are deemed to have read and agreed to the following terms and conditions</target>
+      </trans-unit>
+      <trans-unit id="269200d6bb2ec1c46b8c0912f36d4f1896581e65" resname="Like most interactive web sites this Company’s website [or ISP] uses cookies to enable us to retrieve user details for each visit. Cookies are used in some areas of our site to enable the functionality of this area and ease of use for those people visiting. Some of our affiliate partners may also use cookies. &#10;">
+        <jms:reference-file line="80">views/Default/legal.html.twig</jms:reference-file>
+        <source>Like most interactive web sites this Company’s website [or ISP] uses cookies to enable us to retrieve user details for each visit. Cookies are used in some areas of our site to enable the functionality of this area and ease of use for those people visiting. Some of our affiliate partners may also use cookies. 
+</source>
+        <target state="new">Like most interactive web sites this Company’s website [or ISP] uses cookies to enable us to retrieve user details for each visit. Cookies are used in some areas of our site to enable the functionality of this area and ease of use for those people visiting. Some of our affiliate partners may also use cookies. 
+</target>
+      </trans-unit>
+      <trans-unit id="61239152fdd935a0c04cf18485b05bdff3f8c77e" resname="Links from this website ">
+        <jms:reference-file line="92">views/Default/legal.html.twig</jms:reference-file>
+        <source>Links from this website </source>
+        <target state="new">Links from this website </target>
+      </trans-unit>
+      <trans-unit id="e02b0b34ea30a147c226edfc62973acaa1c028eb" resname="Links to this website ">
+        <jms:reference-file line="85">views/Default/legal.html.twig</jms:reference-file>
+        <source>Links to this website </source>
+        <target state="new">Links to this website </target>
+      </trans-unit>
+      <trans-unit id="d92568ed56fa1cfe15a1c3c976d00ea13bd2efac" resname="Log Files">
+        <jms:reference-file line="71">views/Default/legal.html.twig</jms:reference-file>
+        <source>Log Files</source>
+        <target state="new">Log Files</target>
+      </trans-unit>
+      <trans-unit id="5c7cde77377c7be0bb29926b016aa485bac35617" resname="Neither party shall be liable to the other for any failure to perform any obligation under any Agreement which is due to an event beyond the control of such party including but not limited to any Act of God, terrorism, war, Political insurgence, insurrection, riot, civil unrest, act of civil or military authority, uprising, earthquake, flood or any other natural or man made eventuality outside of our control, which causes the termination of an agreement or contract entered into, nor which could have been reasonably foreseen. Any Party affected by such event shall forthwith inform the other Party of the same and shall use all reasonable endeavours to comply with the terms and conditions of any Agreement contained herein.&#10;">
+        <jms:reference-file line="121">views/Default/legal.html.twig</jms:reference-file>
+        <source>Neither party shall be liable to the other for any failure to perform any obligation under any Agreement which is due to an event beyond the control of such party including but not limited to any Act of God, terrorism, war, Political insurgence, insurrection, riot, civil unrest, act of civil or military authority, uprising, earthquake, flood or any other natural or man made eventuality outside of our control, which causes the termination of an agreement or contract entered into, nor which could have been reasonably foreseen. Any Party affected by such event shall forthwith inform the other Party of the same and shall use all reasonable endeavours to comply with the terms and conditions of any Agreement contained herein.
+</source>
+        <target state="new">Neither party shall be liable to the other for any failure to perform any obligation under any Agreement which is due to an event beyond the control of such party including but not limited to any Act of God, terrorism, war, Political insurgence, insurrection, riot, civil unrest, act of civil or military authority, uprising, earthquake, flood or any other natural or man made eventuality outside of our control, which causes the termination of an agreement or contract entered into, nor which could have been reasonably foreseen. Any Party affected by such event shall forthwith inform the other Party of the same and shall use all reasonable endeavours to comply with the terms and conditions of any Agreement contained herein.
+</target>
+      </trans-unit>
+      <trans-unit id="a1faf0f3bc7a78cdfa46c16012db7661d29592d2" resname="Notification of Changes">
+        <jms:reference-file line="140">views/Default/legal.html.twig</jms:reference-file>
+        <source>Notification of Changes</source>
+        <target state="new">Notification of Changes</target>
+      </trans-unit>
+      <trans-unit id="b1789d85308346e98aace6879da32978e8c1d960" resname="Privacy Statement">
+        <jms:reference-file line="25">views/Default/legal.html.twig</jms:reference-file>
+        <source>Privacy Statement</source>
+        <target state="new">Privacy Statement</target>
+      </trans-unit>
+      <trans-unit id="6b4d8ec0ee0f1db22672a8eb74fbce24d603a485" resname="Termination of Agreements and Refunds Policy">
+        <jms:reference-file line="57">views/Default/legal.html.twig</jms:reference-file>
+        <source>Termination of Agreements and Refunds Policy</source>
+        <target state="new">Termination of Agreements and Refunds Policy</target>
+      </trans-unit>
+      <trans-unit id="a6a1d25b018c9318540556e3fe374fdf8b23aff8" resname="Terms of service">
+        <jms:reference-file line="5">views/Default/legal.html.twig</jms:reference-file>
+        <source>Terms of service</source>
+        <target state="new">Terms of service</target>
+      </trans-unit>
+      <trans-unit id="9d7e29e323f4f4491373d12436b7e2eb4d0aa5cb" resname="The Company reserves the right to change these conditions from time to time as it sees fit and your continued use of the site will signify your acceptance of any adjustment to these terms. If there are any changes to our privacy policy, we will announce that these changes have been made on our home page and on other key pages on our site. If there are any changes in how we use our site customers’ Personally Identifiable Information, notification by e-mail or postal mail will be made to those affected by this change. You are therefore advised to re-read this statement on a regular basis&#10;">
+        <jms:reference-file line="142">views/Default/legal.html.twig</jms:reference-file>
+        <source>The Company reserves the right to change these conditions from time to time as it sees fit and your continued use of the site will signify your acceptance of any adjustment to these terms. If there are any changes to our privacy policy, we will announce that these changes have been made on our home page and on other key pages on our site. If there are any changes in how we use our site customers’ Personally Identifiable Information, notification by e-mail or postal mail will be made to those affected by this change. You are therefore advised to re-read this statement on a regular basis
+</source>
+        <target state="new">The Company reserves the right to change these conditions from time to time as it sees fit and your continued use of the site will signify your acceptance of any adjustment to these terms. If there are any changes to our privacy policy, we will announce that these changes have been made on our home page and on other key pages on our site. If there are any changes in how we use our site customers’ Personally Identifiable Information, notification by e-mail or postal mail will be made to those affected by this change. You are therefore advised to re-read this statement on a regular basis
+</target>
+      </trans-unit>
+      <trans-unit id="ecb0fbaf48ba801b54f6062b62d822f167ce5fdd" resname="The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and any or all Agreements: &#10;        &quot;Client&quot;, “You” and “Your” refers to you, the person accessing this website and accepting the Company’s terms and conditions. &#10;        &quot;The Company&quot;, “Ourselves”, “We” and &quot;Us&quot;, refers to %companyname%. &#10;        “Party”, “Parties”, or “Us”, refers to both the Client and ourselves, or either the Client or ourselves. &#10;        All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client &#10;        in the most appropriate manner, whether by formal meetings of a fixed duration, or any other means, &#10;        for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services/products, &#10;        in accordance with and subject to, prevailing the Law. &#10;        Any use of the above terminology or other words in the singular, plural, capitalisation and/or he/she or they, &#10;        are taken as interchangeable and therefore as referring to same.&#10;    ">
+        <jms:reference-file line="11">views/Default/legal.html.twig</jms:reference-file>
+        <source>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and any or all Agreements: 
+        "Client", “You” and “Your” refers to you, the person accessing this website and accepting the Company’s terms and conditions. 
+        "The Company", “Ourselves”, “We” and "Us", refers to %companyname%. 
+        “Party”, “Parties”, or “Us”, refers to both the Client and ourselves, or either the Client or ourselves. 
+        All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client 
+        in the most appropriate manner, whether by formal meetings of a fixed duration, or any other means, 
+        for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services/products, 
+        in accordance with and subject to, prevailing the Law. 
+        Any use of the above terminology or other words in the singular, plural, capitalisation and/or he/she or they, 
+        are taken as interchangeable and therefore as referring to same.
+    </source>
+        <target state="new">The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and any or all Agreements: 
+        "Client", “You” and “Your” refers to you, the person accessing this website and accepting the Company’s terms and conditions. 
+        "The Company", “Ourselves”, “We” and "Us", refers to %companyname%. 
+        “Party”, “Parties”, or “Us”, refers to both the Client and ourselves, or either the Client or ourselves. 
+        All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client 
+        in the most appropriate manner, whether by formal meetings of a fixed duration, or any other means, 
+        for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services/products, 
+        in accordance with and subject to, prevailing the Law. 
+        Any use of the above terminology or other words in the singular, plural, capitalisation and/or he/she or they, 
+        are taken as interchangeable and therefore as referring to same.
+    </target>
+      </trans-unit>
+      <trans-unit id="d4d774af4914206bf136957964d19d65ce2a9c75" resname="The information on this web site is provided on an &quot;as is&quot; basis. To the fullest extent permitted by law, this Company:&#10;&lt;ul&gt;&#10;    &lt;li&gt;&#10;       excludes all representations and warranties relating to this website and its contents or which is or may be provided by any affiliates or any other third party, including in relation to any inaccuracies or omissions in this website and/or the Company’s literature; and &#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;       excludes all liability for damages arising out of or in connection with your use of this website. This includes, without limitation, direct loss, loss of business or profits (whether or not the loss of such profits was foreseeable, arose in the normal course of things or you have advised this Company of the possibility of such potential loss), damage caused to your computer, computer software, systems and programs and the data thereon or any other direct or indirect, consequential and incidental damages. &#10;    &lt;/li&gt;&#10;&lt;/ul&gt;&#10;This Company does not however exclude liability for death or personal injury caused by its negligence. The above exclusions and limitations apply only to the extent permitted by law. None of your statutory rights as a consumer are affected. &#10;">
+        <jms:reference-file line="42">views/Default/legal.html.twig</jms:reference-file>
+        <source><![CDATA[The information on this web site is provided on an "as is" basis. To the fullest extent permitted by law, this Company:
+<ul>
+    <li>
+       excludes all representations and warranties relating to this website and its contents or which is or may be provided by any affiliates or any other third party, including in relation to any inaccuracies or omissions in this website and/or the Company’s literature; and 
+    </li>
+    <li>
+       excludes all liability for damages arising out of or in connection with your use of this website. This includes, without limitation, direct loss, loss of business or profits (whether or not the loss of such profits was foreseeable, arose in the normal course of things or you have advised this Company of the possibility of such potential loss), damage caused to your computer, computer software, systems and programs and the data thereon or any other direct or indirect, consequential and incidental damages. 
+    </li>
+</ul>
+This Company does not however exclude liability for death or personal injury caused by its negligence. The above exclusions and limitations apply only to the extent permitted by law. None of your statutory rights as a consumer are affected. 
+]]></source>
+        <target state="new"><![CDATA[The information on this web site is provided on an "as is" basis. To the fullest extent permitted by law, this Company:
+<ul>
+    <li>
+       excludes all representations and warranties relating to this website and its contents or which is or may be provided by any affiliates or any other third party, including in relation to any inaccuracies or omissions in this website and/or the Company’s literature; and 
+    </li>
+    <li>
+       excludes all liability for damages arising out of or in connection with your use of this website. This includes, without limitation, direct loss, loss of business or profits (whether or not the loss of such profits was foreseeable, arose in the normal course of things or you have advised this Company of the possibility of such potential loss), damage caused to your computer, computer software, systems and programs and the data thereon or any other direct or indirect, consequential and incidental damages. 
+    </li>
+</ul>
+This Company does not however exclude liability for death or personal injury caused by its negligence. The above exclusions and limitations apply only to the extent permitted by law. None of your statutory rights as a consumer are affected. 
+]]></target>
+      </trans-unit>
+      <trans-unit id="5665c229d6266ccd95694a1a3b859fe9c99f9300" resname="These terms and conditions form part of the Agreement between the Client and ourselves. Your accessing of this website and/or undertaking of a booking or Agreement indicates your understanding, agreement to and acceptance, of the Disclaimer Notice and the full Terms and Conditions contained herein. Your statutory Consumer Rights are unaffected.    &#10;">
+        <jms:reference-file line="147">views/Default/legal.html.twig</jms:reference-file>
+        <source>These terms and conditions form part of the Agreement between the Client and ourselves. Your accessing of this website and/or undertaking of a booking or Agreement indicates your understanding, agreement to and acceptance, of the Disclaimer Notice and the full Terms and Conditions contained herein. Your statutory Consumer Rights are unaffected.    
+</source>
+        <target state="new">These terms and conditions form part of the Agreement between the Client and ourselves. Your accessing of this website and/or undertaking of a booking or Agreement indicates your understanding, agreement to and acceptance, of the Disclaimer Notice and the full Terms and Conditions contained herein. Your statutory Consumer Rights are unaffected.    
+</target>
+      </trans-unit>
+      <trans-unit id="742459fd12a2abebde8b6c6b9298f0953724e89d" resname="Unless otherwise stated, the services featured on this website are only available within the United Kingdom, or in relation to postings from the United Kingdom. All advertising is intended solely for the United Kingdom market. You are solely responsible for evaluating the fitness for a particular purpose of any downloads, programs and text available through this site. Redistribution or republication of any part of this site or its content is prohibited, including such by framing or other similar or any other means, without the express written consent of the Company. The Company does not warrant that the service from this site will be uninterrupted, timely or error free, although it is provided to the best ability. By using this service you thereby indemnify this Company, its employees, agents and affiliates against any loss or damage, in whatever manner, howsoever caused.&#10;">
+        <jms:reference-file line="66">views/Default/legal.html.twig</jms:reference-file>
+        <source>Unless otherwise stated, the services featured on this website are only available within the United Kingdom, or in relation to postings from the United Kingdom. All advertising is intended solely for the United Kingdom market. You are solely responsible for evaluating the fitness for a particular purpose of any downloads, programs and text available through this site. Redistribution or republication of any part of this site or its content is prohibited, including such by framing or other similar or any other means, without the express written consent of the Company. The Company does not warrant that the service from this site will be uninterrupted, timely or error free, although it is provided to the best ability. By using this service you thereby indemnify this Company, its employees, agents and affiliates against any loss or damage, in whatever manner, howsoever caused.
+</source>
+        <target state="new">Unless otherwise stated, the services featured on this website are only available within the United Kingdom, or in relation to postings from the United Kingdom. All advertising is intended solely for the United Kingdom market. You are solely responsible for evaluating the fitness for a particular purpose of any downloads, programs and text available through this site. Redistribution or republication of any part of this site or its content is prohibited, including such by framing or other similar or any other means, without the express written consent of the Company. The Company does not warrant that the service from this site will be uninterrupted, timely or error free, although it is provided to the best ability. By using this service you thereby indemnify this Company, its employees, agents and affiliates against any loss or damage, in whatever manner, howsoever caused.
+</target>
+      </trans-unit>
+      <trans-unit id="9cd4ca6b628b823e4852487df905cc090f65e238" resname="Waiver">
+        <jms:reference-file line="126">views/Default/legal.html.twig</jms:reference-file>
+        <source>Waiver</source>
+        <target state="new">Waiver</target>
+      </trans-unit>
+      <trans-unit id="d2f834eebb6c7590174c26a26415c3a2612ec638" resname="We are committed to protecting your privacy. Authorized employees within the company on a need to know basis only use any information collected from individual customers. We constantly review our systems and data to ensure the best possible service to our customers. Parliament has created specific offences for unauthorised actions against computer systems and data. We will investigate any such actions with a view to prosecuting and/or taking civil proceedings to recover damages against those responsible&#10;">
+        <jms:reference-file line="27">views/Default/legal.html.twig</jms:reference-file>
+        <source>We are committed to protecting your privacy. Authorized employees within the company on a need to know basis only use any information collected from individual customers. We constantly review our systems and data to ensure the best possible service to our customers. Parliament has created specific offences for unauthorised actions against computer systems and data. We will investigate any such actions with a view to prosecuting and/or taking civil proceedings to recover damages against those responsible
+</source>
+        <target state="new">We are committed to protecting your privacy. Authorized employees within the company on a need to know basis only use any information collected from individual customers. We constantly review our systems and data to ensure the best possible service to our customers. Parliament has created specific offences for unauthorised actions against computer systems and data. We will investigate any such actions with a view to prosecuting and/or taking civil proceedings to recover damages against those responsible
+</target>
+      </trans-unit>
+      <trans-unit id="77888a09974826495d9ed9f86f73440e51f4f7be" resname="We do not monitor or review the content of other party’s websites which are linked to from this website. Opinions expressed or material appearing on such websites are not necessarily shared or endorsed by us and should not be regarded as the publisher of such opinions or material. Please be aware that we are not responsible for the privacy practices, or content, of these sites. We encourage our users to be aware when they leave our site &amp; to read the privacy statements of these sites. You should evaluate the security and trustworthiness of any other site connected to this site or accessed through this site yourself, before disclosing any personal information to them. This Company will not accept any responsibility for any loss or damage in whatever manner, howsoever caused, resulting from your disclosure to third parties of personal information.&#10;">
+        <jms:reference-file line="94">views/Default/legal.html.twig</jms:reference-file>
+        <source><![CDATA[We do not monitor or review the content of other party’s websites which are linked to from this website. Opinions expressed or material appearing on such websites are not necessarily shared or endorsed by us and should not be regarded as the publisher of such opinions or material. Please be aware that we are not responsible for the privacy practices, or content, of these sites. We encourage our users to be aware when they leave our site & to read the privacy statements of these sites. You should evaluate the security and trustworthiness of any other site connected to this site or accessed through this site yourself, before disclosing any personal information to them. This Company will not accept any responsibility for any loss or damage in whatever manner, howsoever caused, resulting from your disclosure to third parties of personal information.
+]]></source>
+        <target state="new"><![CDATA[We do not monitor or review the content of other party’s websites which are linked to from this website. Opinions expressed or material appearing on such websites are not necessarily shared or endorsed by us and should not be regarded as the publisher of such opinions or material. Please be aware that we are not responsible for the privacy practices, or content, of these sites. We encourage our users to be aware when they leave our site & to read the privacy statements of these sites. You should evaluate the security and trustworthiness of any other site connected to this site or accessed through this site yourself, before disclosing any personal information to them. This Company will not accept any responsibility for any loss or damage in whatever manner, howsoever caused, resulting from your disclosure to third parties of personal information.
+]]></target>
+      </trans-unit>
+      <trans-unit id="1106178c43c0cc561824e0be8e5dc93ecb9aac7d" resname="We have several different e-mail addresses for different queries. These, &amp; other contact information, can be found on our Contact Us link on our website or via Company literature or via the Company’s stated telephone, facsimile or mobile telephone numbers.&#10;&lt;br&gt;&#10;">
+        <jms:reference-file line="111">views/Default/legal.html.twig</jms:reference-file>
+        <source><![CDATA[We have several different e-mail addresses for different queries. These, & other contact information, can be found on our Contact Us link on our website or via Company literature or via the Company’s stated telephone, facsimile or mobile telephone numbers.
+<br>
+]]></source>
+        <target state="new"><![CDATA[We have several different e-mail addresses for different queries. These, & other contact information, can be found on our Contact Us link on our website or via Company literature or via the Company’s stated telephone, facsimile or mobile telephone numbers.
+<br>
+]]></target>
+      </trans-unit>
+      <trans-unit id="98dab7d0f5fa88c47624cb6f3f795e5d494dcb84" resname="We use IP addresses to analyse trends, administer the site, track user’s movement, and gather broad demographic information for aggregate use. IP addresses are not linked to personally identifiable information. Additionally, for systems administration, detecting usage patterns and troubleshooting purposes, our web servers automatically log standard access information including browser type, access times/open mail, URL requested, and referral URL. This information is not shared with third parties and is used only within this Company on a need-to-know basis. Any individually identifiable information related to this data will never be used in any way different to that stated above without your explicit permission.&#10;">
+        <jms:reference-file line="73">views/Default/legal.html.twig</jms:reference-file>
+        <source>We use IP addresses to analyse trends, administer the site, track user’s movement, and gather broad demographic information for aggregate use. IP addresses are not linked to personally identifiable information. Additionally, for systems administration, detecting usage patterns and troubleshooting purposes, our web servers automatically log standard access information including browser type, access times/open mail, URL requested, and referral URL. This information is not shared with third parties and is used only within this Company on a need-to-know basis. Any individually identifiable information related to this data will never be used in any way different to that stated above without your explicit permission.
+</source>
+        <target state="new">We use IP addresses to analyse trends, administer the site, track user’s movement, and gather broad demographic information for aggregate use. IP addresses are not linked to personally identifiable information. Additionally, for systems administration, detecting usage patterns and troubleshooting purposes, our web servers automatically log standard access information including browser type, access times/open mail, URL requested, and referral URL. This information is not shared with third parties and is used only within this Company on a need-to-know basis. Any individually identifiable information related to this data will never be used in any way different to that stated above without your explicit permission.
+</target>
+      </trans-unit>
+      <trans-unit id="69c014a28bb7e8786775363e30ff0db49981a185" resname="You may not create a link to any page of this website without our prior written consent. If you do create a link to a page of this website you do so at your own risk and the exclusions and limitations set out above will apply to your use of this website by linking to it.&#10;">
+        <jms:reference-file line="87">views/Default/legal.html.twig</jms:reference-file>
+        <source>You may not create a link to any page of this website without our prior written consent. If you do create a link to a page of this website you do so at your own risk and the exclusions and limitations set out above will apply to your use of this website by linking to it.
+</source>
+        <target state="new">You may not create a link to any page of this website without our prior written consent. If you do create a link to a page of this website you do so at your own risk and the exclusions and limitations set out above will apply to your use of this website by linking to it.
+</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

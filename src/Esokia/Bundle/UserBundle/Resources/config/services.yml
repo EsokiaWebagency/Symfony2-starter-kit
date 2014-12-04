@@ -1,0 +1,20 @@
+parameters:
+    esokia.login.geo_listener.class: Esokia\Bundle\UserBundle\Listener\GeoTrackingListener
+    esokia_geolocalisation.api.helper: Esokia\Bundle\UserBundle\Services\GeoInfoHelper
+    geolocalisation.api.url: http://www.telize.com/geoip/
+
+services:
+    esokia_geolocalisation.api:
+        class: %esokia_geolocalisation.api.helper%
+        arguments: [%geolocalisation.api.url%]
+
+############################################################################################
+# Uncomment this listener to add basical geolocalisation infos on user login from it's IP  #
+# Note this will not work in local with 127.0.0.1.                                         #
+# modify Esokia\Bundle\UserBundle\Services\GeoInfoHelper for testing                       #
+############################################################################################
+#    esokia.login.geo_listener:
+#        class: %esokia.login.geo_listener.class%
+#        arguments: [@security.context, @doctrine, @esokia_geolocalisation.api]
+#        tags:
+#            - { name: kernel.event_listener, event: security.interactive_login, method: onSecurityInteractiveLogin }

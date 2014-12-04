@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+{% spaceless %}
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>{% block title %}{{ sitename|trans }}{% endblock %}</title>
+        {% block stylesheets %}
+          {#  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet"> #}
+            {% stylesheets 
+                    'css/bootstrap.css' 
+                    'css/global.css' 
+                    
+                    filter='cssrewrite' 
+                    filter='?uglifycss' 
+                    output='css/compiled/main.css' %}
+                <link rel="stylesheet" href="{{ asset_url }}" />
+            {% endstylesheets %}
+        {% endblock %}
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+        <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+    </head>
+    <body class="{% block bodyclass %}{% endblock %}" id="{% block bodyid %}{% endblock %}" >
+        <div class="container-fluid">
+            <header  class="page-header">
+                <div class='row'>
+                    {% block header %}
+                    <div class="col-md-10">
+                             <h1>{{"Welcome to "|trans}}{{ sitename|trans }}</h1>
+                     </div>
+                    {% endblock %}
+                    {% block rightHeader -%}{% endblock %}
+               </div>
+            </header>
+
+         
+
+            {% for flashMessage in app.session.flashbag.get('notice') %}
+                <div class='row'>
+                    <div class="col-md-12">
+                        <div class="alert alert-block alert-info alert-header">
+                          <button type="button" class="close" data-dismiss="alert">&times;</button>
+                          <h4>{{'Information'|trans}}!</h4> {{ flashMessage|raw }}
+                        </div> 
+                    </div>
+                </div>
+                {% endfor %}
+                {% for flashMessage in app.session.flashbag.get('success') %}
+                <div class='row'>
+                    <div class="col-md-12">
+                        <div class="alert alert-block alert-success alert-header">
+                          <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <h4>{{'Success'|trans}}!</h4> {{ flashMessage|raw }}
+                        </div> 
+                    </div>
+                </div>
+                {% endfor %}
+                {% for flashMessage in app.session.flashbag.get('warning') %}
+                <div class='row'>
+                    <div class="col-md-12">
+         
+                    <div class="alert alert-block alert-header">
+                             <button type="button" class="close" data-dismiss="alert">&times;</button>
+                             <h4>{{'Warning'|trans}}!</h4> {{ flashMessage|raw }}
+                           </div>  
+                    </div>
+                </div>
+                {% endfor %}
+                {% for flashMessage in app.session.flashbag.get('error') %}
+                <div class='row'>
+                    <div class="col-md-12">
+                        <div class="alert alert-block alert-error alert-header">
+                          <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <h4>{{'Error'|trans}}!</h4> {{ flashMessage|raw }}
+                        </div>   
+                    </div>
+                </div>
+                {% endfor %}
+
+               
+            {% block body %}
+            {% endblock %}
+
+            <footer>
+               {% block footer %}
+               {% endblock %} 
+            </footer>
+        </div>
+        {% block javascripts %}
+
+            
+           <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+            {% javascripts 'js/bootstrap.js' 'js/global.js'  filter='?uglifyjs2' output='js/compiled/main.js' %}
+                <script type="text/javascript" src="{{ asset_url }}"></script>
+            {% endjavascripts %}
+
+        {% endblock %}
+ 
+    </body>
+</html>
+{% endspaceless %}

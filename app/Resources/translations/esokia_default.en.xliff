@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file date="2014-12-03T13:29:00Z" source-language="en" target-language="en" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="4bbc7035596da448eabef1928e85d026e4a9135e" resname="Admin ">
+        <jms:reference-file line="18">Resources/views/layout.html.twig</jms:reference-file>
+        <source>Admin </source>
+        <target state="new">Admin </target>
+      </trans-unit>
+      <trans-unit id="70d823a447ebbcfd68a2061f0191229edffcdc58" resname="Create User Profile ">
+        <jms:reference-file line="3">views/User/new.html.twig</jms:reference-file>
+        <source>Create User Profile </source>
+        <target state="new">Create User Profile </target>
+      </trans-unit>
+      <trans-unit id="16d42aed59707a670083964990587dae868c7121" resname="Create User profile">
+        <jms:reference-file line="7">views/User/new.html.twig</jms:reference-file>
+        <source>Create User profile</source>
+        <target state="new">Create User profile</target>
+      </trans-unit>
+      <trans-unit id="69c1b109433752ea39f0f72c5cb29b2917c8847c" resname="Edit User Profile ">
+        <jms:reference-file line="3">views/User/edit.html.twig</jms:reference-file>
+        <source>Edit User Profile </source>
+        <target state="new">Edit User Profile </target>
+      </trans-unit>
+      <trans-unit id="4e2b6b646dd14c1686d4bb23d2f4f1fe6548cb4c" resname="Edit User profile of">
+        <jms:reference-file line="7">views/User/edit.html.twig</jms:reference-file>
+        <source>Edit User profile of</source>
+        <target state="new">Edit User profile of</target>
+      </trans-unit>
+      <trans-unit id="cec28c528aa9a19608efd051b673e35b01652368" resname="This action will send a reset password email to this user">
+        <jms:reference-file line="20">views/User/index.html.twig</jms:reference-file>
+        <source>This action will send a reset password email to this user</source>
+        <target state="new">This action will send a reset password email to this user</target>
+      </trans-unit>
+      <trans-unit id="a22edbb241fb479925641e23d2797eb2d934c665" resname="User Profile ">
+        <jms:reference-file line="4">views/User/show.html.twig</jms:reference-file>
+        <source>User Profile </source>
+        <target state="new">User Profile </target>
+      </trans-unit>
+      <trans-unit id="e6317d6bdd79c144cfade596a4d26f26a57a686b" resname="User profil of">
+        <jms:reference-file line="8">views/User/show.html.twig</jms:reference-file>
+        <source>User profil of</source>
+        <target state="new">User profil of</target>
+      </trans-unit>
+      <trans-unit id="d244c9cf1c064d511e1a86171a48ea9a33d0a1a0" resname="esokia.actions">
+        <jms:reference-file line="24">views/Contact/index.html.twig</jms:reference-file>
+        <jms:reference-file line="10">views/User/index.html.twig</jms:reference-file>
+        <source>esokia.actions</source>
+        <target state="new">Actions</target>
+      </trans-unit>
+      <trans-unit id="d4c32564772eaa84915ec6a8146808099e32d18f" resname="esokia.back_to_list">
+        <jms:reference-file line="24">views/Contact/edit.html.twig</jms:reference-file>
+        <jms:reference-file line="51">views/Contact/show.html.twig</jms:reference-file>
+        <jms:reference-file line="25">views/User/edit.html.twig</jms:reference-file>
+        <jms:reference-file line="24">views/User/new.html.twig</jms:reference-file>
+        <jms:reference-file line="59">views/User/show.html.twig</jms:reference-file>
+        <source>esokia.back_to_list</source>
+        <target state="new">Back</target>
+      </trans-unit>
+      <trans-unit id="58877fef3ec0d0eaee2840fbc243bf0d1bd4ac24" resname="esokia.contact_email_label">
+        <jms:reference-file line="13">views/Email/email.html.twig</jms:reference-file>
+        <jms:reference-file line="5">views/Email/email.txt.twig</jms:reference-file>
+        <source>esokia.contact_email_label</source>
+        <target state="new">Email</target>
+      </trans-unit>
+      <trans-unit id="fb3f0e7beae6a78113024a7edb4aa62e486a1f1c" resname="esokia.contact_ip_label">
+        <jms:reference-file line="25">views/Email/email.html.twig</jms:reference-file>
+        <jms:reference-file line="11">views/Email/email.txt.twig</jms:reference-file>
+        <source>esokia.contact_ip_label</source>
+        <target state="new">Ip adresse</target>
+      </trans-unit>
+      <trans-unit id="385fd31256bd8222bd0939adb5b11f296f12d9d2" resname="esokia.contact_list">
+        <jms:reference-file line="6">views/Contact/index.html.twig</jms:reference-file>
+        <source>esokia.contact_list</source>
+        <target state="new">Contact list</target>
+      </trans-unit>
+      <trans-unit id="29aa2d9e3984be86fc3afc67912dde93d8b6c1d6" resname="esokia.contact_message_label">
+        <jms:reference-file line="21">views/Email/email.html.twig</jms:reference-file>
+        <jms:reference-file line="8">views/Email/email.txt.twig</jms:reference-file>
+        <source>esokia.contact_message_label</source>
+        <target state="new">Message</target>
+      </trans-unit>
+      <trans-unit id="f85042230406c4f59056f1ac820983c69bdb85d6" resname="esokia.contact_name_label">
+        <jms:reference-file line="9">views/Email/email.html.twig</jms:reference-file>
+        <jms:reference-file line="4">views/Email/email.txt.twig</jms:reference-file>
+        <source>esokia.contact_name_label</source>
+        <target state="new">Name</target>
+      </trans-unit>
+      <trans-unit id="0daea11ca23f8d634d518d0d8afe4ff6b43f9b35" resname="esokia.contact_subject_label">
+        <jms:reference-file line="17">views/Email/email.html.twig</jms:reference-file>
+        <jms:reference-file line="7">views/Email/email.txt.twig</jms:reference-file>
+        <source>esokia.contact_subject_label</source>
+        <target state="new">Subject</target>
+      </trans-unit>
+      <trans-unit id="9082b49677504a8f331eb14de27ea453a007764f" resname="esokia.contactus">
+        <jms:reference-file line="6">views/Contact/new.html.twig</jms:reference-file>
+        <source>esokia.contactus</source>
+        <target state="new">Contact us</target>
+      </trans-unit>
+      <trans-unit id="8f4715b69d8588aec26a1516b0f12611e8eaa073" resname="esokia.create_new">
+        <jms:reference-file line="3">views/Contact/index.html.twig</jms:reference-file>
+        <jms:reference-file line="3">views/Contact/new.html.twig</jms:reference-file>
+        <source>esokia.create_new</source>
+        <target state="new">Add</target>
+      </trans-unit>
+      <trans-unit id="25f17877b2ee3b9c0857c175b03676d859377a6c" resname="esokia.default_confirm_alert">
+        <jms:reference-file line="77">Resources/views/layout.html.twig</jms:reference-file>
+        <jms:reference-file line="58">Resources/views/layout.html.twig</jms:reference-file>
+        <source>esokia.default_confirm_alert</source>
+        <target state="new">This action is irreversible, are you sure you want to continue?</target>
+      </trans-unit>
+      <trans-unit id="3d234a3c6aa71825b7e8bdf9b441cf42d264547d" resname="esokia.edit">
+        <jms:reference-file line="4">views/Contact/edit.html.twig</jms:reference-file>
+        <jms:reference-file line="7">views/Contact/edit.html.twig</jms:reference-file>
+        <jms:reference-file line="64">views/User/show.html.twig</jms:reference-file>
+        <source>esokia.edit</source>
+        <target state="new">Edit</target>
+      </trans-unit>
+      <trans-unit id="a2e176474f2382449f5924d314ac9edd3ddf3e83" resname="esokia.edit_user">
+        <jms:reference-file line="19">views/User/index.html.twig</jms:reference-file>
+        <source>esokia.edit_user</source>
+        <target state="new">Edit user</target>
+      </trans-unit>
+      <trans-unit id="b2310b88e59b5bbfe9b1b70014606e1d059e0e7a" resname="esokia.new_user">
+        <jms:reference-file line="30">views/User/index.html.twig</jms:reference-file>
+        <source>esokia.new_user</source>
+        <target state="new">Create user</target>
+      </trans-unit>
+      <trans-unit id="716d97fab25dfc1e7d177aa257f138865316a4d0" resname="esokia.reset_user_password">
+        <jms:reference-file line="20">views/User/index.html.twig</jms:reference-file>
+        <source>esokia.reset_user_password</source>
+        <target state="new">Reset user's password</target>
+      </trans-unit>
+      <trans-unit id="b6941fe3a2d17b6d2775f8d670d3d1fd9e0bf231" resname="esokia.show">
+        <jms:reference-file line="39">views/Contact/index.html.twig</jms:reference-file>
+        <source>esokia.show</source>
+        <target state="new">Show</target>
+      </trans-unit>
+      <trans-unit id="978b1be2fb8d4d9cb1292f2388a8ddd8925758cc" resname="esokia.show_user">
+        <jms:reference-file line="18">views/User/index.html.twig</jms:reference-file>
+        <source>esokia.show_user</source>
+        <target state="new">User Profile</target>
+      </trans-unit>
+      <trans-unit id="c24a700312a96250c78b05036913230604e65f9c" resname="esokia.user_list">
+        <jms:reference-file line="4">views/User/index.html.twig</jms:reference-file>
+        <source>esokia.user_list</source>
+        <target state="new">User list</target>
+      </trans-unit>
+      <trans-unit id="6563187689c6fb555606db039712563b6b9b7701" resname="esokia.username">
+        <jms:reference-file line="9">views/User/index.html.twig</jms:reference-file>
+        <source>esokia.username</source>
+        <target state="new">Username</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

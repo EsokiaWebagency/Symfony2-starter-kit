@@ -1,0 +1,7 @@
+esokia_front_homepage:
+    path:     /
+    defaults: { _controller: EsokiaFrontBundle:Default:index }
+
+esokia_front_simple_page:
+    path:     /content/{pageName}
+    defaults: { _controller: EsokiaFrontBundle:Default:simplePage }

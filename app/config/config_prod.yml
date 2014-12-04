@@ -1,0 +1,45 @@
+imports:
+    - { resource: config.yml }
+# In production environment you should know that the parameters for URL generation
+# always pass the requirements. Otherwise it would break your link (or even site with
+# strict_requirements = true). So we can disable the requirements check completely for
+# enhanced performance with strict_requirements = null.
+framework:
+    router:
+        strict_requirements: null
+    
+
+doctrine:
+#    orm:
+#        metadata_cache_driver: apc
+#        result_cache_driver: apc
+#        query_cache_driver: apc
+
+
+monolog:
+    handlers:
+        main:
+            type:               fingers_crossed
+            action_level:       error
+            handler:            grouped
+        grouped:
+            type:               group
+            members:            [streamed, swift]
+        streamed:
+            type:               stream
+            path:               "%kernel.logs_dir%/%kernel.environment%.log"
+            level:              debug
+        swift:
+            type:               swift_mailer
+            from_email:         error@esokia.com
+            to_email:           jg@esokia-webagency.com
+            subject:            "ERROR on %site.name%"
+            level:              critical
+        login:
+            type:               stream
+            path:               "%kernel.logs_dir%/auth.log"
+            level:              info
+            channels:           security
+
+swiftmailer:
+   spool:     { type: memory }

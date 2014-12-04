@@ -1,0 +1,23 @@
+{% block extends %}
+{{ "{% extends 'EsokiaFrontBundle::layout.html.twig' %}" }}
+{% endblock extends %}
+
+{% block body %}
+{{ "{% block title -%}" }}{{ "{{'esokia.create_new'|trans({}, 'esokia_default')}}" }}{{ "{% endblock title -%}" }} 
+
+{{ "{% block  content_header -%}" }}
+    <h3>{{ "{{'esokia.create_new'|trans({}, 'esokia_default')}}" }}</h3>
+{{ "{% endblock  content_header -%}" }} 
+
+{{ "{% block content -%}" }}
+
+    {{ '{{ form(form) }}' }}
+
+{{ "{% endblock content %}" }}
+
+
+    {% set hide_edit, hide_delete = true, true %}
+    {% include 'crud/views/others/record_actions.html.twig.twig' %}
+
+{% endblock body %}
+

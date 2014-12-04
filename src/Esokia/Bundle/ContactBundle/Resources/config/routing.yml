@@ -1,0 +1,12 @@
+EsokiaContactBundle_contact_new:
+    path:     /contact-us
+    defaults: { _controller: "EsokiaContactBundle:Contact:new" }
+
+EsokiaContactBundle_contact_create:
+    path:     /contact/create
+    defaults: { _controller: "EsokiaContactBundle:Contact:create" }
+    requirements: { _method: post }
+
+EsokiaContactBundle_contact:
+    resource: "@EsokiaContactBundle/Resources/config/routing/contact.yml"
+    prefix:   /admin/contact

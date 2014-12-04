@@ -1,0 +1,7 @@
+parameters:
+#    esokia_contact.example.class: Esokia\Bundle\ContactBundle\Example
+
+services:
+#    esokia_contact.example:
+#        class: %esokia_contact.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

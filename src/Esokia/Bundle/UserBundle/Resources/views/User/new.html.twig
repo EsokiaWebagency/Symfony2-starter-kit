@@ -1,0 +1,29 @@
+{% extends "EsokiaAdminBundle::layout.html.twig" %}
+ 
+{% block title %}{{'Create User Profile '|trans({}, 'esokia_default')}} {% endblock title %}
+
+ 
+{% block content_header %}
+        <h3>{{'Create User profile'|trans({}, 'esokia_default')}}</h3>
+{% endblock %}
+    
+    
+    
+{% block content -%}
+    {{ form(form) }}
+{% endblock %}
+
+
+
+
+
+{% block content_footer %}  
+ <ul class="list-inline">
+    <li>
+        <a href="{{ path('admin_user') }}"  class="btn btn-default">
+            {{'esokia.back_to_list'|trans({}, 'esokia_default')}}
+        </a>
+    </li>
+</ul>
+
+{% endblock content_footer %} 
