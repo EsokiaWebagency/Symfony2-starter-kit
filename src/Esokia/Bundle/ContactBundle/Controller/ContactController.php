@@ -104,7 +104,7 @@ class ContactController extends Controller
         
              $message = \Swift_Message::newInstance();
              $message->setSubject($this->container->getParameter('site.name').' - new contact')
-                        ->setFrom($contact->getEmail())
+                        ->setFrom($this->container->getParameter('site.email'))
                         ->setTo($this->container->getParameter('site.email'))
                      ->setBody(
                             $this->renderView(
@@ -157,6 +157,7 @@ class ContactController extends Controller
      */
     public function newAction()
     {
+  
         $entity = new Contact();
         $form   = $this->createCreateForm($entity);
 

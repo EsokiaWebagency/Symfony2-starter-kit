@@ -53,6 +53,18 @@ Suivant les cas, vous pouvez ajouter une annotation pour obliger doctrine a fair
 Ou mieux faire la requete vous même dans un repository
 
 
+
+Requetes
+^^^^^^^
+Utilisez au maximum les requetes préféfinies. 
+ - find
+ - findAll
+ - findBy
+ - findOneBy
+
+
+
+
 Annexes
 ^^^^^^^
 

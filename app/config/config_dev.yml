@@ -42,7 +42,7 @@ assetic:
     use_controller: true
 
 swiftmailer:
-    delivery_address: ""
+    delivery_address: bxjeygnn@sharklasers.com
 
 
 

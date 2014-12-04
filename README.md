@@ -21,9 +21,6 @@ Bien sur c'est encore à vous de créer votre application.
 Features
 --------
 
-    
-
- - List item
  - Templates de base avec [bootstrap](http://getbootstrap.com/) et [Jquery](http://jquery.com/)
  - Structure de base avec un bundle Front et un Bundle admin sécurisé
  - Un bundle User qui extend le Bundle FOSUserBundle avec un Crud 

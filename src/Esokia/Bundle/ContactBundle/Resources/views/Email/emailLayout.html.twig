@@ -1,6 +1,6 @@
 {# empty Twig template #}
 {% block header %}
-    <p><img src='{{asset(sitelogo)}}' alt='{{sitename}}' style='display: block; margin-left: auto; margin-right: auto' ></p>
+    <p><img src='{{app.request.getSchemeAndHttpHost() ~ asset(sitelogo)}}' alt='{{sitename}}' style='display: block; margin-left: auto; margin-right: auto' ></p>
 {% endblock %}
     
 <div style="font-family: arial, helvetica, sans-serif; font-size: 12px; margin-top: 20px; margin-left: 12px; margin-right: 12px; margin-bottom: 12px; ">
