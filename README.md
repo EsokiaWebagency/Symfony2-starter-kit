@@ -107,3 +107,9 @@ La distribution Esokia propose un templating utiisant bootstrap.
 Mise en production
 ==================
 [Voir la documentation](app/Resources/doc/miseenprod.rst)
+
+
+
+CheatSheets (anti-sèches pour les francophone ;) )
+===================================================
+[CheatSheet CLI](app/Resources/doc/cheatsheet.rst)
